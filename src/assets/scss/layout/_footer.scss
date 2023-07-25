@@ -30,6 +30,11 @@
       font-size: 14px;
       line-height: 21px;
       text-transform: capitalize;
+      transition: var(--transition);
+
+      &:hover, :focus{
+        color: var(--secondary-bg-color);
+      }
 
       @media screen and (min-width: 1140px) {
         font-weight: 600;
