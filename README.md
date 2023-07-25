@@ -1,1 +1,11 @@
-Сайт зверстаний за допомогою: HTML, SASS, JavaScript. Також при розробці сайту використовувалася метологія BEM. Сайт виконаний адаптивно для десктопу, плантшету та мобільних пристоїв
+Running the local service
+Open a new bash shell
+cd server
+npm install or yarn install
+npm run start or yarn start
+
+Run your application
+Open a new bash shell
+cd client
+npm install or yarn install
+npm run start or yarn start
