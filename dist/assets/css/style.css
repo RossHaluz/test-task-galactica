@@ -606,6 +606,7 @@ img {
 .footer {
     padding-top: 64px;
     padding-bottom: 32px;
+    background-color: #F9F1EE;
 }
 
 .footer__wrapp {
@@ -698,6 +699,11 @@ img {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
+    transition: var(--transition);
+}
+
+.footer__email:hover, .footer__email :focus {
+    color: var(--secondary-bg-color);
 }
 
 @media screen and (min-width: 1140px) {
