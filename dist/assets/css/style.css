@@ -666,6 +666,11 @@ img {
     fill: var(--corporate-bg-color);
 }
 
+.footer__socials--item__icon:hover, .footer__socials--item__icon :focus {
+    cursor: pointer;
+    fill: var(--secondary-bg-color);
+}
+
 .footer__contactus {
     text-align: center;
     font-family: "Exo", sans-serif;

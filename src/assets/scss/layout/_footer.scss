@@ -53,6 +53,13 @@
 
     &--item {
       fill: var(--corporate-bg-color);
+
+      &__icon{
+        &:hover, :focus{
+          cursor: pointer;
+          fill: var(--secondary-bg-color);
+        }
+      }
     }
   }
 
