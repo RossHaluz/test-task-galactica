@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{> head}}
+  </head>
+  <body>
+     <!-- Header -->
+     <header class="header">
+      <div class="container">
+        <div class="header__wrapp">
+          <a href="#" class="header__logo">
+            <picture>
+              <source
+              media="(min-width: 1140px)"
+              srcset="./assets/images/logo-desc.png 1x"
+              type="image/png"
+              >
+              <img src="./assets/images/logo-mb.png" alt="Mobile logo" width="145.5px" height="36px">
+            </picture>
+          </a>
+
+          <div class="header__nav">
+            <nav class="header__nav--list">
+              <a href="#" class="header__nav--list__item">Affiliates</a>
+              <a href="#" class="header__nav--list__item">Advertisers</a>
+              <a href="#" class="header__nav--list__item">Events</a>
+              <a href="#" class="header__nav--list__item">Blog</a>
+            </nav>
+
+            <a class="header__nav--signup" href="#">Sign up</a>
+          </div>
+
+          <button class="mobile-menu" type="button" aria-label="Mobile menu" aria-expanded="false"
+          data-menu-open>
+        <img src="./assets/images/mb-menu.svg" alt="Mobile menu" width="24px" height="16px">
+        </button>
+        </div>
+      </div>
+     </header>
+
+    {{> body}}
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__wrapp">
+    <a href="#" class="footer__logo">
+      <picture>
+        <source
+        media="(min-width: 1140px)"
+        srcset="./assets/images/logo-desc.png 1x"
+        type="image/png"
+        >
+        <img src="./assets/images/logo-mb.png" alt="Mobile logo" width="145.5px" height="36px">
+      </picture>
+    </a>
+
+    <div class="footer__nav-wrapp">
+<nav class="footer__nav">
+  <a href="#" class="footer__nav--item">affiliates</a>
+  <a href="#" class="footer__nav--item">advertisers</a>
+  <a href="#" class="footer__nav--item">events</a>
+  <a href="#" class="footer__nav--item">blog</a>
+  <a href="#" class="footer__nav--item">Terms Of Use</a>
+</nav>
+
+<ul class="footer__socials">
+  <li class="footer__socials--item">
+    <img src="./assets/images/facebook.svg" alt="FB" class="footer__socials--item__icon" width="40" height="40">
+  </li>
+  <li class="footer__socials--item">
+    <img src="./assets/images/linkedin.svg" alt="LN" class="footer__socials--item__icon" width="40" height="40">
+  </li>
+  <li class="footer__socials--item">
+    <img src="./assets/images/instagram.svg" alt="IG" class="footer__socials--item__icon" width="40" height="40">
+  </li>
+</ul>
+
+<div class="footer__contact-wrapp">
+<h3 class="footer__contactus">Contact us</h3>
+<a href="mailto:support@markify.com" class="footer__email">support@markify.com</a>
+</div>
+</div>
+</div>
+  </div>
+</footer>
+  </body>

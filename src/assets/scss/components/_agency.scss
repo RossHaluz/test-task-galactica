@@ -1,0 +1,50 @@
+.agency {
+  padding-top: 64px;
+  padding-bottom: 96px;
+
+  &__wrapp {
+    display: flex;
+    flex-direction: column;
+    padding: 44px 16px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--corporate-bg-color);
+    border-radius: 15px;
+
+    @media screen and (min-width: 1140px) {
+        padding: 64px 0px;
+    }
+  }
+
+  &__title {
+    font-family: 'Exo', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 700;
+    line-height: 39.2px;
+    text-transform: capitalize;
+    color: var(--white-text-color);
+
+    @media screen and (min-width: 1140px) {
+        font-size: 44px;
+        line-height: 61.6px;
+    }
+  }
+
+  &__desc {
+    color: var(--white-text-color);
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  &__signup {
+    padding: 12px 24px;
+    background-color: var(--secondary-bg-color);
+    color: var(--white-text-color);
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 5px;
+  }
+}

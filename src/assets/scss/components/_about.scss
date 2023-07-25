@@ -1,0 +1,45 @@
+.about{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    @media screen and (min-width: 1140px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    &__title{
+        margin-bottom: 40px;
+    }
+
+    &__desc-list{
+        display: flex;
+       flex-direction: column;
+       gap: 24px;
+
+       @media screen and (min-width: 1140px) {
+        flex-direction: row;
+        justify-content: space-between;
+       gap: 170px;
+       }
+
+       &--item{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        &__title{
+            font-family: 'Exo', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25.2px;
+            text-transform: capitalize;
+
+            @media screen and (min-width: 1140px) {
+                font-size: 24px;
+                line-height: 33.6px;
+            }
+       }
+    }
+}
+}

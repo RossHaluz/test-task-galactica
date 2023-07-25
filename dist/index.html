@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:wght@700&family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="./assets/css/style.min.css" />
+    <title>Home</title>
+  </head>
+  <body>
+     <!-- Header -->
+     <header class="header">
+      <div class="container">
+        <div class="header__wrapp">
+          <a href="#" class="header__logo">
+            <picture>
+              <source
+              media="(min-width: 1140px)"
+              srcset="./assets/images/logo-desc.png 1x"
+              type="image/png"
+              >
+              <img src="./assets/images/logo-mb.png" alt="Mobile logo" width="145.5px" height="36px">
+            </picture>
+          </a>
+
+          <div class="header__nav">
+            <nav class="header__nav--list">
+              <a href="#" class="header__nav--list__item">Affiliates</a>
+              <a href="#" class="header__nav--list__item">Advertisers</a>
+              <a href="#" class="header__nav--list__item">Events</a>
+              <a href="#" class="header__nav--list__item">Blog</a>
+            </nav>
+
+            <a class="header__nav--signup" href="#">Sign up</a>
+          </div>
+
+          <button class="mobile-menu" type="button" aria-label="Mobile menu" aria-expanded="false"
+          data-menu-open>
+        <img src="./assets/images/mb-menu.svg" alt="Mobile menu" width="24px" height="16px">
+        </button>
+        </div>
+      </div>
+     </header>
+
+    
+    <!-- Main -->
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__line"></div>
+          <div class="hero__wrapp">
+            <div class="hero__img-wrapp">
+              <img
+                class="hero__img"
+                srcset="
+                  ./assets/images/hero-img-mb@1.png    285w,
+                  ./assets/images/hero-img-mb@2x.png   570w,
+                  ./assets/images/hero-img-desc@1x.png 461w,
+                  ./assets/images/hero-img-desc@2x.png 922w
+                "
+                src="./assets/images/hero-img-mb@1.png"
+                alt="Hero img"
+                sizes="(min-width: 1140px) 40vw, (min-width: 340px) 100vw, 100vw"
+              />
+            </div>
+    
+            <div class="hero__desc-wrapp">
+              <h1 class="hero__title">
+                Lorem ipsum dolor sit amet consectetur. Mi cras
+                <span class="hero__title--accent">non non quis.</span>
+              </h1>
+              <p class="hero__desc">
+                Lorem ipsum dolor sit amet consectetur. Faucibus nunc et mattis at
+                feugiat sagittis volutpat. At netus diam ipsum cras turpis imperdiet
+                diam vel consequat. Ultrices in faucibus sodales sed sed. Enim
+                aenean dignissim sed a non mollis. Sed ut arcu enim ullamcorper.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Traffic poster -->
+      <div class="traffic">
+        <picture>
+          <source
+            media="(min-width: 1140px)"
+            srcset="
+              ./assets/images/traffic-desc@1x.png 1x,
+              ./assets/images/traffic-desc@2x.png 2x
+            "
+            type="image/png"
+          />
+    
+          <source
+            media="(max-width: 1139px)"
+            srcset="
+              ./assets/images/traffic-mb@1xg.png 1x,
+              ./assets/images/traffic-mb@2x.png  2x
+            "
+            type="image/png"
+          />
+    
+          <img
+            src="./assets/images/traffic-mb@1xg.png"
+            alt="Traffic poster"
+            class="traffic__poster"
+          />
+        </picture>
+      </div>
+    
+      <!-- Partners -->
+      <section class="partners section">
+        <div class="container">
+    
+          <div class="partners__wrapp">
+            <div class="partners__list-wrapp">
+              <h2 class="partners__title section-title">
+                our <span class="partners__title--accent">exclusive partners</span>
+              </h2>
+              <ul class="partners__list">
+                <li class="partners__list--item">
+                  <picture>
+                    <source
+                      srcset="
+                        ./assets/images/partner-sync@1x.png 1x,
+                        ./assets/images/partner-sync@2x.png 2x
+                      "
+                    />
+                    <img
+                      src="./assets/images/partner-sync@1x.png"
+                      alt="Sync"
+                      width="112"
+                      height="48"
+                    />
+                  </picture>
+                </li>
+    
+                <li class="partners__list--item">
+                  <picture>
+                    <source
+                      srcset="
+                        ./assets/images/partner-influence@1x.png 1x,
+                        ./assets/images/partner-influence@2x.png 2x
+                      "
+                    />
+                    <img
+                      src="./assets/images/partner-influence@1x.png"
+                      alt="Sync"
+                      width="194"
+                      height="56"
+                    />
+                  </picture>
+                </li>
+    
+                <li class="partners__list--item">
+                  <picture>
+                    <source
+                      srcset="
+                        ./assets/images/partner-coding@1x.png 1x,
+                        ./assets/images/partner-coding@2x.png 2x
+                      "
+                    />
+                    <img
+                      src="./assets/images/partner-coding@1x.png"
+                      alt="Sync"
+                      width="184"
+                      height="56"
+                    />
+                  </picture>
+                </li>
+              </ul>
+            </div>
+    
+            <img
+              class="partners__img"
+              srcset="
+                ./assets/images/partner-mb@1x.png   285w,
+                ./assets/images/partner-mb@2x.png   570w,
+                ./assets/images/partner-desc@1x.png 461w,
+                ./assets/images/partner-desc@2x.png 922w
+              "
+              src="./assets/images/partner-mb@1x.png"
+              alt="Hero img"
+              sizes="(min-width: 1140px) 40vw, (min-width: 340px) 100vw, 100vw"
+            />
+          </div>
+    
+        </div>
+      </section>
+    
+       <!-- About -->
+       <section class="about">
+        <div class="container">
+            <h2 class="about__title section-title">
+                About us
+            </h2>
+            <ul class="about__desc-list">
+                <li class="about__desc-list--item">
+                    <h3 class="about__desc-list--item__title">Lorem ipsum dolor sit amet consectetur</h3>
+                    <p class="about__desc-list--item__text">Lorem ipsum dolor sit amet consectetur. Vel duis nibh sodales in gravida dolor in. Elementum netus rhoncus sagittis nunc mi non egestas est. Aliquam maecenas in sed vestibulum neque feugiat pulvinar. Volutpat auctor a in sem vulputate aliquam tempor sit. Nulla urna felis penatibus ut cras sit.</p>
+                </li>
+    
+                <li class="about__desc-list--item">
+                    <h3 class="about__desc-list--item__title">Lorem ipsum dolor sit amet consectetur</h3>
+                    <p class="about__desc-list--item__text">Lorem ipsum dolor sit amet consectetur. Vel duis nibh sodales in gravida dolor in. Elementum netus rhoncus sagittis nunc mi non egestas est. Aliquam maecenas in sed vestibulum neque feugiat pulvinar. Volutpat auctor a in sem vulputate aliquam tempor sit. Nulla urna felis penatibus ut cras sit.</p>
+                </li>
+            </ul>
+        </div>
+       </section>
+    
+      <!-- Services -->   
+      <section class="services section">
+        <div class="container">
+            <div class="services__wrapp">
+                <div class="services__wrapp-info">
+                    <h2 class="services__title section-title">Services</h2>
+    
+                    <ul class="services__list">
+                        <li class="services__list--item corporate">
+                            <h3 class="services__list--item__title">Lorem Ipsum</h3>
+                            <ul class="services__list--sublist">
+                                <li class="services__list--sublist--item">Lorem</li>
+                                <li class="services__list--sublist--item">Lorem</li>
+                                <li class="services__list--sublist--item">Lorem</li>
+                                <li class="services__list--sublist--item">Lorem</li>
+                            </ul>
+                        </li>
+    
+                        <ul class="services__list-wrapp">
+    
+                        <li class="services__list--item">
+                            <h3 class="services__list--item__title">Lorem</h3>
+                            <ul class="services__list--sublist">
+                                <li class="services__list--sublist--item">Lorem</li>
+                                <li class="services__list--sublist--item">Lorem</li>
+                            </ul>
+                        </li>
+    
+                        <li class="services__list--item">
+                            <h3 class="services__list--item__title">Lorem</h3>
+                            <ul class="services__list--sublist">
+                                <li class="services__list--sublist--item">Lorem</li>
+                                <li class="services__list--sublist--item">Lorem</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </ul>
+                </div>
+    
+                <img
+                class="services__img"
+                srcset="
+                ./assets/images/services-mb@1x.png   285w,
+                ./assets/images/services-mb@2x.png   570w,
+                ./assets/images/services-desc@1x.png 461w,
+                ./assets/images/services-desc@2x.png 922w
+                "
+                src="./assets/images/services-mb@1x.png"
+                alt="Hero img"
+                sizes="(min-width: 1140px) 40vw, (min-width: 340px) 100vw, 100vw"
+              />
+            </div>
+        </div>
+      </section>
+    
+      <!-- Choose our agency. -->  
+      <section class="agency">
+        <div class="container">
+            <div class="agency__wrapp">
+            <h2 class="agency__title">Choose excellence, choose our agency.</h2>
+            <p class="agency__desc">Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="#" class="agency__signup">Sign Up</a>
+        </div>
+        </div>
+      </section> 
+    </main>
+    
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__wrapp">
+    <a href="#" class="footer__logo">
+      <picture>
+        <source
+        media="(min-width: 1140px)"
+        srcset="./assets/images/logo-desc.png 1x"
+        type="image/png"
+        >
+        <img src="./assets/images/logo-mb.png" alt="Mobile logo" width="145.5px" height="36px">
+      </picture>
+    </a>
+
+    <div class="footer__nav-wrapp">
+<nav class="footer__nav">
+  <a href="#" class="footer__nav--item">affiliates</a>
+  <a href="#" class="footer__nav--item">advertisers</a>
+  <a href="#" class="footer__nav--item">events</a>
+  <a href="#" class="footer__nav--item">blog</a>
+  <a href="#" class="footer__nav--item">Terms Of Use</a>
+</nav>
+
+<ul class="footer__socials">
+  <li class="footer__socials--item">
+    <img src="./assets/images/facebook.svg" alt="FB" class="footer__socials--item__icon" width="40" height="40">
+  </li>
+  <li class="footer__socials--item">
+    <img src="./assets/images/linkedin.svg" alt="LN" class="footer__socials--item__icon" width="40" height="40">
+  </li>
+  <li class="footer__socials--item">
+    <img src="./assets/images/instagram.svg" alt="IG" class="footer__socials--item__icon" width="40" height="40">
+  </li>
+</ul>
+
+<div class="footer__contact-wrapp">
+<h3 class="footer__contactus">Contact us</h3>
+<a href="mailto:support@markify.com" class="footer__email">support@markify.com</a>
+</div>
+</div>
+</div>
+  </div>
+</footer>
+  </body>

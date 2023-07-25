@@ -1,0 +1,21 @@
+// utils styles
+@import 'utils/variables';
+
+// base styles
+@import 'base/base';
+@import 'base/reset';
+
+// components styles
+@import 'components/container';
+@import 'components/section';
+@import 'components/title';
+@import 'components/hero';
+@import 'components/traffic';
+@import 'components/partners';
+@import 'components/about';
+@import 'components/services';
+@import 'components/agency';
+
+// layout styles
+@import 'layout/header';
+@import 'layout/footer';

@@ -1,0 +1,45 @@
+.header{
+padding: 24px 0;
+    &__wrapp{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__nav{
+        @media screen and (max-width: 1139px) {
+            display: none;
+        }
+        display: flex;
+        gap: 64px;
+        align-items: center;
+
+        &--list{
+            display: flex;
+            align-items: center;
+            gap: 46px;
+
+            &__item{
+                font-weight: 600;
+            }
+        }
+
+        &--signup{
+            background-color: var(--corporate-bg-color);
+            border-radius: 5px;
+            color: var(--white-text-color);
+            padding: 12px 23px;
+            text-transform: capitalize;
+            font-weight: 700;
+        }
+    }
+}
+
+.mobile-menu{
+    background: none;
+    border: none;
+
+    @media screen and (min-width: 1140px) {
+        display: none;
+    }
+}
